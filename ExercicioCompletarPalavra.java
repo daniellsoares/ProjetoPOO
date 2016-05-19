@@ -1,7 +1,10 @@
 
 public class ExercicioCompletarPalavra implements CadastraExercicio {
 	private String letra;
-	
+	/**
+	 * 
+	 * @param resposta adicionar qual o tipo de letra que sera utilizada na classe
+	 */
 	public ExercicioCompletarPalavra(String letra){
 		this.setLetra(letra);
 	}
